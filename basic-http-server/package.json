@@ -1,0 +1,24 @@
+{
+  "name": "basic-http-server",
+  "version": "1.0.0",
+  "description": "Servidor Http básico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernangiraldo89/nodejsbasico.git"
+  },
+  "keywords": [
+    "Http",
+    "Node",
+    "Server"
+  ],
+  "author": "Hernán Giraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernangiraldo89/nodejsbasico/issues"
+  },
+  "homepage": "https://github.com/hernangiraldo89/nodejsbasico#readme"
+}
