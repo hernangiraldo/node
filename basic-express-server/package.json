@@ -1,10 +1,11 @@
 {
-  "name": "basic-http-server",
+  "name": "basic-express-server",
   "version": "1.0.0",
-  "description": "Servidor Http básico",
+  "description": "Servidor Express básico",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -13,12 +14,17 @@
   "keywords": [
     "Http",
     "Node",
-    "Server"
+    "Server",
+    "Express"
   ],
   "author": "Hernán Giraldo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hernangiraldo89/nodejsbasico/issues"
   },
-  "homepage": "https://github.com/hernangiraldo89/nodejsbasico#readme"
+  "homepage": "https://github.com/hernangiraldo89/nodejsbasico#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
 }
